@@ -1,0 +1,401 @@
+[
+ {
+  "id": "0001",
+  "name": "3/4 sit-up",
+  "category": "waist",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.0186,
+  "motion_std": 0.0473,
+  "motion_peak": 0.1435,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.6994
+ },
+ {
+  "id": "0002",
+  "name": "45° side bend",
+  "category": "waist",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.1854,
+  "motion_std": 0.317,
+  "motion_peak": 0.8465,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.7976
+ },
+ {
+  "id": "0003",
+  "name": "air bike",
+  "category": "waist",
+  "equipment": "body weight",
+  "n_frames": 24,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.6361,
+  "motion_std": 0.4868,
+  "motion_peak": 2.1006,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.768
+ },
+ {
+  "id": "0006",
+  "name": "alternate heel touchers",
+  "category": "waist",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.4045,
+  "motion_std": 0.4296,
+  "motion_peak": 1.3797,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.7836
+ },
+ {
+  "id": "0007",
+  "name": "alternate lateral pulldown",
+  "category": "back",
+  "equipment": "cable",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.0842,
+  "motion_std": 0.0581,
+  "motion_peak": 0.1667,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8701
+ },
+ {
+  "id": "0009",
+  "name": "assisted chest dip (kneeling)",
+  "category": "chest",
+  "equipment": "leverage machine",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.254,
+  "motion_std": 0.1751,
+  "motion_peak": 0.5944,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8034
+ },
+ {
+  "id": "0018",
+  "name": "assisted standing triceps extension (with towel)",
+  "category": "upper arms",
+  "equipment": "assisted",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.1698,
+  "motion_std": 0.1158,
+  "motion_peak": 0.3043,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8078
+ },
+ {
+  "id": "0019",
+  "name": "assisted triceps dip (kneeling)",
+  "category": "upper arms",
+  "equipment": "leverage machine",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.2122,
+  "motion_std": 0.2136,
+  "motion_peak": 0.7089,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.7957
+ },
+ {
+  "id": "0716",
+  "name": "side push neck stretch",
+  "category": "neck",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.1918,
+  "motion_std": 0.1797,
+  "motion_peak": 0.4737,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.889
+ },
+ {
+  "id": "0977",
+  "name": "band front lateral raise",
+  "category": "shoulders",
+  "equipment": "band",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.2162,
+  "motion_std": 0.1929,
+  "motion_peak": 0.6521,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.7871
+ },
+ {
+  "id": "0978",
+  "name": "band front raise",
+  "category": "shoulders",
+  "equipment": "band",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.2078,
+  "motion_std": 0.1844,
+  "motion_peak": 0.6105,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8329
+ },
+ {
+  "id": "0994",
+  "name": "band reverse wrist curl",
+  "category": "lower arms",
+  "equipment": "band",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.1268,
+  "motion_std": 0.1034,
+  "motion_peak": 0.3331,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.916
+ },
+ {
+  "id": "1016",
+  "name": "band wrist curl",
+  "category": "lower arms",
+  "equipment": "band",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.0964,
+  "motion_std": 0.0738,
+  "motion_peak": 0.2867,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.9266
+ },
+ {
+  "id": "1368",
+  "name": "ankle circles",
+  "category": "lower legs",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.0342,
+  "motion_std": 0.0289,
+  "motion_peak": 0.0917,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.95
+ },
+ {
+  "id": "1403",
+  "name": "neck side stretch",
+  "category": "neck",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.1223,
+  "motion_std": 0.1027,
+  "motion_peak": 0.2993,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8506
+ },
+ {
+  "id": "1512",
+  "name": "all fours squad stretch",
+  "category": "upper legs",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.3355,
+  "motion_std": 0.3038,
+  "motion_peak": 1.0804,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8375
+ },
+ {
+  "id": "1708",
+  "name": "assisted lying calves stretch",
+  "category": "lower legs",
+  "equipment": "assisted",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.0625,
+  "motion_std": 0.0432,
+  "motion_peak": 0.1403,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.7715
+ },
+ {
+  "id": "3220",
+  "name": "astride jumps (male)",
+  "category": "cardio",
+  "equipment": "body weight",
+  "n_frames": 24,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.4055,
+  "motion_std": 0.1294,
+  "motion_peak": 0.5815,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.9196
+ },
+ {
+  "id": "3293",
+  "name": "archer pull up",
+  "category": "back",
+  "equipment": "body weight",
+  "n_frames": 12,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.4209,
+  "motion_std": 0.3871,
+  "motion_peak": 1.3623,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8637
+ },
+ {
+  "id": "3294",
+  "name": "archer push up",
+  "category": "chest",
+  "equipment": "body weight",
+  "n_frames": 24,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.3678,
+  "motion_std": 0.3115,
+  "motion_peak": 1.437,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8087
+ },
+ {
+  "id": "3672",
+  "name": "back and forth step",
+  "category": "cardio",
+  "equipment": "body weight",
+  "n_frames": 24,
+  "shape": [
+   16,
+   33,
+   4
+  ],
+  "motion_mean": 0.3677,
+  "motion_std": 0.3626,
+  "motion_peak": 1.556,
+  "joint_motion_top5": [
+   0
+  ],
+  "visibility_mean": 0.8964
+ }
+]
