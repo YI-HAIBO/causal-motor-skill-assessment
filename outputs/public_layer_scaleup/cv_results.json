@@ -1,0 +1,194 @@
+{
+  "model": "ST-GCN (public layer, augmented, 5-fold CV)",
+  "n_samples": 500,
+  "augmentations": [
+    "gaussian_noise",
+    "joint_dropout",
+    "time_warp",
+    "spatial_rotation"
+  ],
+  "folds": [
+    {
+      "seed": 0,
+      "fold": 0,
+      "val_acc": 0.23,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 0,
+      "fold": 1,
+      "val_acc": 0.3,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 0,
+      "fold": 2,
+      "val_acc": 0.2,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 0,
+      "fold": 3,
+      "val_acc": 0.17,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 0,
+      "fold": 4,
+      "val_acc": 0.24,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 1,
+      "fold": 0,
+      "val_acc": 0.24,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 1,
+      "fold": 1,
+      "val_acc": 0.27,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 1,
+      "fold": 2,
+      "val_acc": 0.25,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 1,
+      "fold": 3,
+      "val_acc": 0.18,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 1,
+      "fold": 4,
+      "val_acc": 0.22,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 2,
+      "fold": 0,
+      "val_acc": 0.24,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 2,
+      "fold": 1,
+      "val_acc": 0.28,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 2,
+      "fold": 2,
+      "val_acc": 0.19,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 2,
+      "fold": 3,
+      "val_acc": 0.19,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 2,
+      "fold": 4,
+      "val_acc": 0.22,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 3,
+      "fold": 0,
+      "val_acc": 0.22,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 3,
+      "fold": 1,
+      "val_acc": 0.28,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 3,
+      "fold": 2,
+      "val_acc": 0.16,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 3,
+      "fold": 3,
+      "val_acc": 0.19,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 3,
+      "fold": 4,
+      "val_acc": 0.24,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 4,
+      "fold": 0,
+      "val_acc": 0.24,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 4,
+      "fold": 1,
+      "val_acc": 0.26,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 4,
+      "fold": 2,
+      "val_acc": 0.2,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 4,
+      "fold": 3,
+      "val_acc": 0.21,
+      "train_size": 400,
+      "val_size": 100
+    },
+    {
+      "seed": 4,
+      "fold": 4,
+      "val_acc": 0.27,
+      "train_size": 400,
+      "val_size": 100
+    }
+  ],
+  "summary": {
+    "mean_acc": 0.2276,
+    "std_acc": 0.0364,
+    "min_acc": 0.16,
+    "max_acc": 0.3,
+    "n_runs": 25
+  }
+}
