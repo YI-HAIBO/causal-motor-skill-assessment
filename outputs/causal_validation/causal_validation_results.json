@@ -1,0 +1,62 @@
+{
+ "experiment_A_localization": {
+  "n": 485,
+  "d0.1": {
+   "hit@1": 0.25773195876288657,
+   "hit@3": 0.3237113402061856,
+   "hit@5": 0.3958762886597938,
+   "median_margin": -0.0002205371856689453
+  },
+  "d0.2": {
+   "hit@1": 0.35051546391752575,
+   "hit@3": 0.4041237113402062,
+   "hit@5": 0.47835051546391755,
+   "median_margin": -0.000141143798828125
+  },
+  "d0.35": {
+   "hit@1": 0.5773195876288659,
+   "hit@3": 0.6412371134020619,
+   "hit@5": 0.7010309278350515,
+   "median_margin": 8.872151374816895e-05
+  },
+  "d0.5": {
+   "hit@1": 0.6721649484536083,
+   "hit@3": 0.7402061855670103,
+   "hit@5": 0.7814432989690722,
+   "median_margin": 0.0003019273281097412
+  },
+  "faithfulness": {
+   "n": 485,
+   "top1_recovery": 0.05712407827377319,
+   "random_recovery": -0.0017658114666119218
+  }
+ },
+ "experiment_B_cross_equipment": {
+  "held_out": "body weight",
+  "train_n": 405,
+  "test_n": 80,
+  "ERM": {
+   "train_acc": 0.9926,
+   "heldout_acc": 0.275,
+   "degradation": 0.7176
+  },
+  "IRM": {
+   "train_acc": 0.9926,
+   "heldout_acc": 0.275,
+   "degradation": 0.7176
+  }
+ },
+ "experiment_C_baseline": {
+  "n": 485,
+  "mean_top1": 0.4701,
+  "std_top1": 0.0912,
+  "mean_balanced": 0.4142,
+  "std_balanced": 0.0838,
+  "mean_macro_f1": 0.4018,
+  "random": 0.1,
+  "e_values": {
+   "stgcn_0.228": 3.99,
+   "mlp_0.470": 8.87
+  }
+ }
+}
