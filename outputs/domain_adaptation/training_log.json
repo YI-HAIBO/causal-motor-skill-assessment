@@ -1,0 +1,14 @@
+{
+  "n_epochs": 100,
+  "best_mmd": 0.0012184266121156753,
+  "source_samples": 500,
+  "target_samples": 47,
+  "total_params": 341254,
+  "lambda_mmd": 0.5,
+  "lambda_adversarial": 0.3,
+  "lambda_reg": 0.1,
+  "rmse_score_src": 0.9081447720527649,
+  "acc_target_linear_probe": 0.10638298094272614,
+  "majority_baseline_target": 0.10638297872340426,
+  "mmd_after": 0.10818958282470703
+}
