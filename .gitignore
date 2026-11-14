@@ -1,0 +1,10 @@
+# Paper manuscript and compiled artifacts are NOT part of the code/data release.
+*.pdf
+*.tex
+*.bbl
+*.blg
+*.aux
+*.out
+*.log
+submission_*/
+outputs/figures/*.pdf
