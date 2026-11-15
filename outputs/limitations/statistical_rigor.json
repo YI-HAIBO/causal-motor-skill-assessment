@@ -1,0 +1,48 @@
+{
+ "pilot_ci": {
+  "n_test": 15,
+  "n_correct": 5,
+  "acc": 0.3333333333333333,
+  "majority": 0.1333,
+  "wilson_95": [
+   0.1518,
+   0.5829
+  ],
+  "binom_p_vs_random0.10": 0.0127,
+  "binom_p_vs_majority0.1333": 0.0398
+ },
+ "cv_stat": {
+  "n_runs": 25,
+  "mean": 0.2276,
+  "std_pop": 0.0364,
+  "std_samp": 0.0371,
+  "min": 0.16,
+  "t_vs_baseline": 17.191,
+  "p_two_sided": 0.0,
+  "n_above_baseline": 25,
+  "all_above_baseline": true,
+  "mean_gain_vs_baseline_pp": 12.76
+ },
+ "faithfulness": {
+  "d": [
+   0.1,
+   0.2,
+   0.35,
+   0.5
+  ],
+  "hit1": [
+   0.2577,
+   0.3505,
+   0.5773,
+   0.6722
+  ],
+  "empirical_kendall_tau": 1.0,
+  "kendall_tau_all_ranks": 1.0,
+  "monotone": true,
+  "theorem3_bound_Etau": -2.5603,
+  "bound_satisfied": true,
+  "top3_hit_at_d0.5": 0.7402,
+  "recovery_top1": 0.0571,
+  "recovery_random": -0.0018
+ }
+}
