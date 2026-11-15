@@ -1,0 +1,38 @@
+{
+ "controlled_erm": {
+  "controlled": true,
+  "variant": "erm",
+  "mean_train_acc": 0.9573,
+  "std_train_acc": 0.0133,
+  "mean_heldout_acc": 0.3945,
+  "std_heldout_acc": 0.0132,
+  "mean_degradation": 0.5628,
+  "std_degradation": 0.022,
+  "n_seeds": 5,
+  "n_folds_avg": 5.0
+ },
+ "controlled_grl": {
+  "controlled": true,
+  "variant": "grl",
+  "mean_train_acc": 0.5621,
+  "std_train_acc": 0.0172,
+  "mean_heldout_acc": 0.3194,
+  "std_heldout_acc": 0.0185,
+  "mean_degradation": 0.2427,
+  "std_degradation": 0.0164,
+  "n_seeds": 5,
+  "n_folds_avg": 5.0
+ },
+ "controlled_film": {
+  "controlled": true,
+  "variant": "film",
+  "mean_train_acc": 0.9338,
+  "std_train_acc": 0.0126,
+  "mean_heldout_acc": 0.133,
+  "std_heldout_acc": 0.0413,
+  "mean_degradation": 0.8008,
+  "std_degradation": 0.0427,
+  "n_seeds": 5,
+  "n_folds_avg": 5.0
+ }
+}
