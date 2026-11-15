@@ -1,0 +1,14 @@
+{
+ "uncontrolled_erm": {
+  "mean_tr": 0.9088,
+  "mean_te": 0.4093,
+  "mean_degradation": 0.4995,
+  "n_folds": 5
+ },
+ "uncontrolled_grl": {
+  "mean_tr": 0.2256,
+  "mean_te": 0.1723,
+  "mean_degradation": 0.0532,
+  "n_folds": 5
+ }
+}
