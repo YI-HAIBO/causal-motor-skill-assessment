@@ -1,0 +1,80 @@
+{
+  "source_url": "https://github.com/yicong1/FineGym-AQA/blob/main/json/finegym_annotation_info_v1.1_scores.json",
+  "blob_sha": "c416278c1ee137cb5494be1fe131f6179bde5750",
+  "bytes": 16935158,
+  "videos": 305,
+  "events_total": 12812,
+  "events_with_dict_score": 5083,
+  "events_no_score": 7729,
+  "per_apparatus_events": {
+    "VT": 2438,
+    "FX": 1214,
+    "BB": 1598,
+    "UB": 1664,
+    "other5": 1507,
+    "other6": 829,
+    "other7": 820,
+    "other8": 810,
+    "other9": 1041,
+    "other10": 891
+  },
+  "score_dist": {
+    "diff": {
+      "n": 4864,
+      "mean": 5.552,
+      "sd": 0.694,
+      "min": 0.0,
+      "max": 7.7,
+      "median": 5.6
+    },
+    "execution": {
+      "n": 4864,
+      "mean": 8.364,
+      "sd": 0.749,
+      "min": 0.0,
+      "max": 9.9,
+      "median": 8.5
+    },
+    "nd": {
+      "n": 5024,
+      "mean": -0.014,
+      "sd": 0.066,
+      "min": -2.0,
+      "max": 0.7,
+      "median": 0.0
+    },
+    "total": {
+      "n": 5083,
+      "mean": 13.749,
+      "sd": 1.395,
+      "min": 0.0,
+      "max": 17.1,
+      "median": 13.958
+    }
+  },
+  "pearson": {
+    "DE": 0.299,
+    "DT": 0.787,
+    "ET": 0.822,
+    "NT": 0.048,
+    "DENT": 0.299
+  },
+  "spearman": {
+    "DE": 0.258,
+    "DT": 0.788,
+    "ET": 0.769,
+    "NT": 0.058
+  },
+  "fig_rule_T_DplusEminusND": {
+    "n": 4864,
+    "mean_resid": -0.0288,
+    "sd_resid": 0.1336,
+    "max_abs_resid": 4.0
+  },
+  "summary": {
+    "DE_near_independent": 0.299,
+    "D_drives_total": 0.787,
+    "E_drives_total": 0.822,
+    "ND_neutral": 0.048
+  }
+}
